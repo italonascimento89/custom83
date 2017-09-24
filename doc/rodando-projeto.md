@@ -8,6 +8,7 @@ Este banco so tem uma tabela de usuario para login, caso aguem implemente outras
 Trque a senha do usuario do banco no codigo do projeto php, para sua senha do banco de dados local, (app/model/Conexao.class.php) para que de erro na roca de efetuar uma consulta.
 
 #ESTRUTURA DO PROJETO
+
 |-app
 |---assert
 |  |----css
