@@ -1,6 +1,7 @@
 Apos te efetuado o fork para seu usuario:
 
 1º Todos os comandos são fetuado no terminal ou cmd, caso não esteja usando o sistema de interface git:
+    
     git clone https://github.com/custom83/custom83.git
 
 
@@ -31,9 +32,10 @@ ESTE PASSO E MAIS COMPLICADO E PODE OCORRER ERRO CASO NÃO TENHA SEGUIDO O PASSO
     -Aplica a atualização
         git pull
 
-CASO NÃO CONSIGA COMITAR DE NEHUMA FORMA É SÓ EFETUAR O FORK NOVAMENTE DO https://github.com/custom83/custom83 RENOMEAR O SEU PROJTO NO SEU COMPUTADOR, EFETUAR O CLONE COMO NO INICIO DA PRIMEIRA DICA ACIMA 1°, AUTERAR O SEU ARQUIVI QUE VC MODIFICOU E COMMITAR NOVAMENTE COMO NO 2° PASSO ACIMA.
+CASO NÃO CONSIGA COMITAR DE NENHUMA FORMA É SÓ EFETUAR O FORK NOVAMENTE DO https://github.com/custom83/custom83 RENOMEAR O SEU PROJTO NO SEU COMPUTADOR, EFETUAR O CLONE COMO NO INICIO DA PRIMEIRA DICA ACIMA 1°, AUTERAR O ARQUIVO QUE VC MODIFICOU E COMITAR NOVAMENTE COMO NO 2° PASSO ACIMA.
 
 MAIS DICAS:
+
 https://gist.github.com/leocomelli/2545add34e4fec21ec16
 
 http://rogerdudler.github.io/git-guide/index.pt_BR.html
