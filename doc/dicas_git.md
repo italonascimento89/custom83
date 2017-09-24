@@ -1,6 +1,7 @@
 Apos te efetuado o fork para seu usuario:
 
 1º Todos os comandos são fetuado no terminal ou cmd, caso não esteja usando o sistema de interface git:
+    
     git clone https://github.com/custom83/custom83.git
 
 
