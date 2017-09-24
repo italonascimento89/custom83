@@ -1,0 +1,196 @@
+#columnLeft{
+    background-image: url("../imgs/background.jpg");
+    background-size: cover;
+    width: 70%;
+    height: 100vh;
+}
+#columnRight{
+  flex-direction: column;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.input{
+  width: 265px;
+}
+.button.is-primary{
+  width: 265px;
+  background-color: #5d2c88;
+}
+.senha{
+  color: #5d2c88;
+}
+.site{
+  position: absolute;
+  color: #5d2c88;
+  bottom: 0px;
+
+}
+.site:hover{
+  color:#5d2c88;
+}
+
+/*FimAutencticacão*/
+
+/*InicioAdm*/
+#columnLeftMenu{
+  display: flex;
+  flex-direction: row;
+  background-color: #481a68;
+  height: 100vh;
+}
+
+#columnRightContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  height: 100vh;
+  background-color: #dcddde;
+}
+.contentRight{
+  height: 95%;
+  width: 98%;
+  background-color: #eff0f0;
+}
+.imgPerfil{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 128px;
+  background-color: #5d2c88;
+}
+.infoPerfil{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 128px;
+  background-color: #5d2c88;
+}
+
+.title{
+  color: white;
+}
+.subtitle{
+  color: white;
+}
+.titleRecourse{
+
+}
+
+.titleContent{
+  position: relative;
+  left: 5px;
+  font-size: 25pt;
+}
+
+.titleRecourse{
+  height: 60px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #dcddde;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+#formsSection01{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#formsSection02{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  top: 5px;
+}
+#formsSection03{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  top: 20px;
+  left: 18px;
+}
+
+
+.field, .button{
+  position: relative;
+  top: 15px;
+
+}
+.input, select, .button.is-primary, .button.is-info{
+  width: 280px;
+}
+#buttonCadastrar{
+  position: relative;
+  top: 25px;
+}
+
+.navigation {
+  width: 100%;
+}
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+  display: block;
+  background-color: #481a68;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+/* add hover behaviour */
+.mainmenu a:hover {
+    background-color: #8c3fcf;
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu a {
+  background-color: #7134a7;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+  background-color: #8c3fcf;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
