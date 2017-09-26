@@ -1,33 +1,227 @@
-#columnLeft{
-    background-image: url("../imgs/background.jpg");
-    background-size: cover;
-    width: 70%;
-    height: 100vh;
+html{
+  height:100%;
 }
-#columnRight{
-  flex-direction: column;
-  background-color: white;
+body{
+    height: 100%;
+}
+
+/**Error404**/
+#backgroundError404{
+  height: 100vh;
+  background-image: url("../imgs/background.jpg");
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  height: 100vh;
 }
-.input{
-  width: 265px;
+#alertError404{
+  margin: 10px;
 }
-.button.is-primary{
-  width: 265px;
+.titleError404{
+  color: white;
+  text-align: center;
+  font-size: 20pt;
+}
+.imgError404{
+  width: 350px;
+}
+/*Autencticacão*/
+#alertLogin{
   background-color: #5d2c88;
+  color: white;
+  text-align: center;
+  margin: 0px;
 }
-.senha{
-  color: #5d2c88;
+#containerContent{
+  height:auto;
+}
+#columnLeft{
+    background-image: url("../imgs/background.jpg");
+    background-size: cover;
+    width: 70%;
+    height: auto;
+}
+
+#columnRight{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+#contentRight{
+  padding: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left:0px;
+  height: auto;
+  background-color: #dcddde;
+}
+
+#sectionTitle{
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-color: white;
+  width: auto;
+  height: 65px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#titleRecourse{
+  font-size: 25px;
+}
+#subtitleRecourse{
+  font-size: 15px;
+}
+#containerSerctionForms1{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#sectionForms1{
+  padding: 5px;
+  width: 215px;
+}
+
+#sectionForms2{
+  padding: 5px;
+}
+#sectionForms3{
+  padding: 5px;
+}
+#containerSerctionForms2{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#sectionForms4{
+  padding: 5px;
+}
+#sectionForms5{
+  padding: 5px;
+}
+#containerSerctionForms3{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#sectionForms6{
+  padding: 5px;
+  width: 215px;
+}
+#sectionForms7{
+  padding: 5px;
+}
+#sectionForms8{
+  padding: 5px;
+}
+#containerSerctionForms4{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#sectionForms9{
+  padding: 5px;
+  width: 215px;
+}
+#sectionForms10{
+  padding: 5px;
+  width: 215px;
+}
+#sectionForms11{
+  padding: 5px;
+  width: 215px;
+}
+#sectionForms12{
+  padding: 5px;
+  width: 215px;
+}
+#selectCidade{
+  width: 215px;
+}
+
+#selectBairro{
+  width: 215px;
+}
+#containerSerctionForms5{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#sectionForms13{
+  padding: 5px;
+  width: 215px;
+}
+#sectionForms14{
+  padding: 5px;
+  width: 215px;
+}
+#containerSerctionForms6{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#sectionForms15{
+  padding: 5px;
+  width: 215px;
+}
+#sectionForms16{
+  padding: 5px;
+  width: 215px;
+}
+#sectionForms17{
+  padding: 5px;
+  width: 215px;
+}
+#sectionForms18{
+  padding: 5px;
+  width: 215px;
+}
+
+#containerSerctionForms7{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#sectionForms19{
+  padding: 5px;
+}
+#sectionForms20{
+  padding: 5px;
+  width: 215px;
+}
+#containerSerctionForms8{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#sectionForms21{
+  padding: 5px;
+
+}
+#buttonCadastro{
+  width: 215px;
+}
+#inputEmail{
+  width: 280px;
+}
+
+#inputSenha{
+  width: 280px;
+}
+
+#buttonSubmit{
+  width: 265px;
+  width: 280px;
 }
 .site{
   position: absolute;
   color: #5d2c88;
   bottom: 0px;
-
 }
 .site:hover{
   color:#5d2c88;
@@ -38,9 +232,9 @@
 /*InicioAdm*/
 #columnLeftMenu{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #481a68;
-  height: 100vh;
+  height: auto;
 }
 
 #columnRightContent{
@@ -48,94 +242,46 @@
   justify-content: center;
   align-items: center;
   background-color: red;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #dcddde;
 }
-.contentRight{
-  height: 95%;
-  width: 98%;
-  background-color: #eff0f0;
-}
-.imgPerfil{
+#containerPerfil{
+  width: 100%;
+  height: 150px;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 50%;
-  height: 128px;
-  background-color: #5d2c88;
+  flex-direction: row;
 }
-.infoPerfil{
+
+#infoPerfil{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
   width: 50%;
-  height: 128px;
-  background-color: #5d2c88;
+  height: 100%;
 }
-
-.title{
+#imgperfil{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.imgUser{
+  height: 100%;
+}
+#nameUser, #typeUser{
+  text-align: left;
   color: white;
 }
-.subtitle{
-  color: white;
-}
-.titleRecourse{
 
-}
 
-.titleContent{
-  position: relative;
-  left: 5px;
-  font-size: 25pt;
-}
-
-.titleRecourse{
-  height: 60px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #dcddde;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-}
-#formsSection01{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-#formsSection02{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  position: relative;
-  top: 5px;
-}
-#formsSection03{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  position: relative;
-  top: 20px;
-  left: 18px;
+/**Menu**/
+#containerMenu{
+  width: 100%;
+  height: auto;
 }
 
 
-.field, .button{
-  position: relative;
-  top: 15px;
-
-}
-.input, select, .button.is-primary, .button.is-info{
-  width: 280px;
-}
-#buttonCadastrar{
-  position: relative;
-  top: 25px;
-}
-
+/* define a fixed width for the entire menu */
 .navigation {
   width: 100%;
 }
@@ -194,3 +340,4 @@
   max-height: 0;
   -webkit-transition: all 0.5s ease-out;
 }
+/**FimMenu**/
